@@ -1,1 +1,1 @@
-worker: python bot.py
+web: gunicorn --chdir bot server:app
